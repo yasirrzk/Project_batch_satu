@@ -1,20 +1,15 @@
-@media screen and (max-width : 600px) {
-    #content, aside{
-        width: 100%;
-        padding: 0;
-    }
-}
-
 *{
     box-sizing: border-box;
 }
 
 body{
-    background-color: white ;
+    background-color: whitesmoke ;
 }
+
 main{
     padding: 20px;
     overflow: auto;
+    color: white;
 }
 .jumbotron{
     padding: 20px;
@@ -25,7 +20,7 @@ main{
     color: white;
 }
 nav{
-    background-color: grey;
+    background-color: black;
     padding: 3px;
     top: 0;
     
@@ -39,43 +34,39 @@ nav a{
 
 }
 nav a:hover {
-    font-weight: bold;
+    font-weight: bolder;
 }
 nav li {
     display: inline;
     list-style-type: none;
     margin-right: 20px;
 }
-.card {
-    background-color: grey; 
-    box-shadow: 0 4px 8px 0 black;
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
-}
 .card1 {
-    background-color: grey;
+    background-color: black;
     font-style: italic; 
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 whitesmoke;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+    overflow: auto;
 }
 .card2 {
-    background-color: grey;
+    background-color: black;
     font-style: italic;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 whitesmoke;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+    overflow: auto;
 }
 .card3 {
-    background-color: grey;
+    background-color: black;
     font-style: italic; 
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 whitesmoke;
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+    overflow: auto;
 }
 footer {
     padding: 30px;
@@ -102,3 +93,28 @@ aside {
 .profile {
     border-radius: 50px;
 }
+
+
+@media screen and (min-width: 480px) {
+   #content .container .card .card1 .card2 .card3 {
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+@media screen and (min-width: 800px) {
+    #content .container .card .card1 .card2 .card3 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
+
+ @media screen and (min-width: 1024px) {
+    #content .container .card .card1 .card2 .card3 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }
