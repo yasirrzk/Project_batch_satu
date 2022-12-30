@@ -8,7 +8,7 @@ function film(judul, durasi, genre, tahun){ //Pertama membuat function film yang
     return film; // mengembalikan nilai dari object film yang sudah dideklarasikan
 }
 
-function tambahFilm(){ // Membuat function tambahFilm dedngan index kosong
+function tambahDataFilm(){ // Membuat function tambahFilm dedngan index kosong
     var films = []; //Kemudian membuat variable films dengan value array kosong 
     var a = film("End Game", "3 jam", "action", "2019") //Setelah itu didalamnya memiliki value dari tiap index array
     var b = film("Infinity War", "2 jam", "action", "2019")
@@ -21,4 +21,4 @@ function tambahFilm(){ // Membuat function tambahFilm dedngan index kosong
     console.log(films); //Cetak films ke dalam console
 }
 
-tambahFilm() //Memanggil function tambahFilm 
+tambahDataFilm() //Memanggil function tambahFilm 

@@ -16,4 +16,4 @@
 
 - Cetak films ke dalam console
 
-- Memanggil function tambahFilm
+- Memanggil function tambahDataFilm
